@@ -1,0 +1,24 @@
+package WS.Curso.Scrum.CTRL;:
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author User
+ */
+public class NewClass {
+
+       public static void main(String [] args){
+            // Crear variables
+            int n,i;
+
+            System.out.print("Introduce un numero: ");
+            Scanner leer = new Scanner(System.in);
+
+            n = leer.nextInt();
+
+            for(i = 0; i <= n; i++){
+                System.out.println(i);
+            }
+      }
+}
